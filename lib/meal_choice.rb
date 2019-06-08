@@ -1,3 +1,4 @@
-def meal_choice("broccoli", "macaroni", "meat")
-put "A plate of #{meat} with #{broccoli} and #{macaroni}."
+def meat_choice(meat, broccoli, macaroni)
+  puts "A plate of #{meat}. with #{broccoli} and #{macaroni}."
 end
+meat_choice("meat", "broccoli", "macaroni")
