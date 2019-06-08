@@ -1,4 +1,4 @@
-def meat_choice(tofu, broccoli, macaroni)
-  puts "A plate of #{tofu} with #{broccoli} and #{macaroni}."
+def meal_choice(meat, broccoli, macaroni)
+  puts "A plate of #{meat}. with #{broccoli} and #{macaroni}."
 end
-meat_choice("tofu", "broccoli", "macaroni")
+meal_choice("meat", "broccoli", "macaroni")
